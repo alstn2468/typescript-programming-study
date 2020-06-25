@@ -1,11 +1,8 @@
-<h1 align="center">
-<br>
+<h2 align="center">
   <img src="book_logo.jpg" alt="Book Logo" width=200">
   <br/><br/>
   Do it! 타입스크립트 프로그래밍 스터디
-</h1>
-
----
+</h2>
 
 ### 참여자
 
