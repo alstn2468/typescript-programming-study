@@ -6,12 +6,14 @@
 
 ### 참여자
 
-|     Name      |                   Github                   |                              Facebook                               |                             LinkedIn                              |                   Blog                   |
-| :-----------: | :----------------------------------------: | :-----------------------------------------------------------------: | :---------------------------------------------------------------: | :--------------------------------------: |
-|   Kim Minsu   | [:octocat:](https://github.com/alstn2468)  | [:shipit:](https://www.facebook.com/profile.php?id=100003769223078) |  [:trollface:](https://www.linkedin.com/in/minsu-kim-336289160/)  | [:bowtie:](https://alstn2468.github.io/) |
-| Kang DongHeon | [:octocat:](https://github.com/daniel2231) |        [:shipit:](https://www.facebook.com/daniel.kang.5249)        | [:trollface:](https://www.linkedin.com/in/kang-daniel-a1a18a179/) | [:bowtie:](https://youturn.tech/about/)  |
+- Kim Minsu  [:octocat:](https://github.com/alstn2468)
+- Kang DongHeon [:octocat:](https://github.com/daniel2231)
 
 ### 스터디 방법
 
+1. 1주일 동안 스터디할 범위를 정합니다.
+2. 각자 스터디를 한 후 마크다운 형식으로 정리합니다.
+3. 매주 각자의 스터디 내용을 공유합니다.
+4. 책의 내용을 습득하며 사이드 프로젝트를 진행합니다.
 
-### [SUMAMRY LINK](./Summary/main.md)
+### [스터디 요약](./Summary/main.md)
