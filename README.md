@@ -1,5 +1,5 @@
 <h2 align="center">
-  <img src="logo.png" alt="Book Logo" width=200">
+  <img src="logo.png" alt="Book Logo" width="700">
   <br/><br/>
   Do it! 타입스크립트 프로그래밍 스터디
 </h2>
