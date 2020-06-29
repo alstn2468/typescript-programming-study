@@ -1,13 +1,13 @@
 <h2 align="center">
-  <img src="logo.png" alt="Book Logo" width="700">
-  <br/><br/>
   Do it! 타입스크립트 프로그래밍 스터디
+  <br/><br/>
+  <img src="logo.png" alt="Book Logo" width="700">
 </h2>
 
 ### 참여자
 
-- Kim Minsu  [:octocat:](https://github.com/alstn2468)
-- Kang DongHeon [:octocat:](https://github.com/daniel2231)
+-   Kim Minsu [:octocat:](https://github.com/alstn2468)
+-   Kang DongHeon [:octocat:](https://github.com/daniel2231)
 
 ### 스터디 방법
 
