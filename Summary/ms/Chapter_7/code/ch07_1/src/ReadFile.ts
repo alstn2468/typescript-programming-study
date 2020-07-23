@@ -1,11 +1,11 @@
-import { readFileSync, readFile } from "fs";
+import { readFileSync, readFile } from 'fs';
 
-console.log("Read package.json using synchronous api...");
-const buffer: Buffer = readFileSync("./package.json");
+console.log('Read package.json using synchronous api...');
+const buffer: Buffer = readFileSync('../package.json');
 console.log(buffer.toString());
 
-readFile("./package.json", (error: Error, buffer: Buffer) => {
-    console.log("Read package.json using asynchronous api...");
+readFile('../package.json', (error: Error, buffer: Buffer) => {
+    console.log('Read package.json using asynchronous api...');
     console.log(buffer.toString());
 });
 
@@ -21,7 +21,7 @@ const readFilePromise = (fileName: string): Promise<string> =>
     });
 
 (async () => {
-    const content = await readFilePromise("./package.json");
-    console.log("Read package.json using Promise and async/await...");
+    const content = await readFilePromise('../package.json');
+    console.log('Read package.json using Promise and async/await...');
     console.log(content);
 })();

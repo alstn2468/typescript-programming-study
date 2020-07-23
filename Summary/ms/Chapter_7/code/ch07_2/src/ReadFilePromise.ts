@@ -1,4 +1,4 @@
-import { readFile } from "fs";
+import { readFile } from 'fs';
 
 const readFilePromise = (fileName: string): Promise<string> =>
     new Promise<string>(
@@ -13,14 +13,14 @@ const readFilePromise = (fileName: string): Promise<string> =>
         }
     );
 
-readFilePromise("./package.json")
+readFilePromise('../package.json')
     .then((content: string) => {
         console.log(content);
-        return readFilePromise("./tsconfig.json");
+        return readFilePromise('../tsconfig.json');
     })
     .then((content: string) => {
         console.log(content);
-        return readFilePromise(".");
+        return readFilePromise('.');
     })
-    .catch((err: Error) => console.log("error :", err.message))
-    .finally(() => console.log("프로그램 종료"));
+    .catch((err: Error) => console.log('error :', err.message))
+    .finally(() => console.log('프로그램 종료'));

@@ -1,6 +1,6 @@
-import { readFile } from "fs";
+import { readFile } from 'fs';
 
-readFile("./package.json", (err: Error, buffer: Buffer) => {
+readFile('../package.json', (err: Error, buffer: Buffer) => {
     if (err) {
         throw err;
     } else {
@@ -9,4 +9,4 @@ readFile("./package.json", (err: Error, buffer: Buffer) => {
     }
 });
 
-console.log("After readFile api called...");
+console.log('After readFile api called...');
