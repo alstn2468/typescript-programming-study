@@ -7,7 +7,7 @@ readFile('../package.json', (err: Error, buffer: Buffer) => {
         const content: string = buffer.toString();
         console.log(content);
 
-        readFile('./tsconfig.json', (err: Error, buffer: Buffer) => {
+        readFile('../tsconfig.json', (err: Error, buffer: Buffer) => {
             if (err) {
                 throw err;
             } else {
