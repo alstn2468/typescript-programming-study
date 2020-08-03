@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "target": "es5",
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "baseUrl": ".",
+        "sourceMap": true,
+        "downlevelIteration": true,
+        "noImplicitAny": false,
+        "paths": {
+            "*": ["node_modules/*"]
+        }
+    },
+    "include": ["src/**/*"]
+}
