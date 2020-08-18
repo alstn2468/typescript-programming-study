@@ -5,6 +5,7 @@ import { writeFile } from "./writeFile";
 import { fileExists } from "./fileExists";
 import { appendFile } from "./appendFile";
 import { deleteFile } from "./deleteFile";
+import { readFileGenerator } from "./readFileGenerator";
 
 export {
     fileExists,
@@ -14,4 +15,5 @@ export {
     readFile,
     appendFile,
     deleteFile,
+    readFileGenerator,
 };
