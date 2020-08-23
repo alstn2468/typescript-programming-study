@@ -1,6 +1,6 @@
 import { connect } from "../mongodb/connect";
 
-const insertDocumentTest = async () => {
+const findOneTest = async () => {
     let connection, cursor;
 
     try {
@@ -22,4 +22,4 @@ const insertDocumentTest = async () => {
     }
 };
 
-insertDocumentTest();
+findOneTest();
