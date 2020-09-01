@@ -46,7 +46,7 @@ Dongheon
 ### 강동헌
 | 목차                                   |                    Link                     |
 | :------------------------------------- | :------------------------------------------: |
-| 01 Getting Started with Typescript   |  [:link: LINK](./Summary/)  |
+| 01 Getting Started with Typescript   |  [:link: LINK](./Summary/ds/01/01.md)  |
 | 02 What is a type system? |  [:link: LINK](./Summary/)  |
 | 03 Type Annotations in Action                       |  [:link: LINK](./Summary/)  |
 | 04 Mastering Typed Arrays                     |  [:link: LINK](./Summary/)  |
