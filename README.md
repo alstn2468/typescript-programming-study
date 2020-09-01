@@ -4,12 +4,12 @@
   <img src="logo.png" alt="Book Logo" width="700">
 </h2>
 
-## 참여자
+## 👨‍💻 참여자
 
 - Kim Minsu [:octocat:](https://github.com/alstn2468)
 - Kang Dongheon [:octocat:](https://github.com/daniel2231)
 
-## 활용자료
+## 📑 활용자료
 
 Kim Minsu
 - Do It! 타입스크립트 프로그래밍
@@ -17,14 +17,14 @@ Kim Minsu
 Dongheon
 - Typescript: The Complete Developer's Guide 2020
 
-## 스터디 방법
+## 📖 스터디 방법
 
 1. 1주일 동안 스터디할 범위를 정합니다.
 2. 각자 스터디를 한 후 마크다운 형식으로 정리합니다.
 3. 매주 각자의 스터디 내용을 공유합니다.
 4. 타입스크립트를 활용하여 사이드 프로젝트를 진행합니다.
 
-## 스터디 기록
+## 📝 스터디 기록
 
 ### 김민수
 | 목차                                   |                    Link                     |
