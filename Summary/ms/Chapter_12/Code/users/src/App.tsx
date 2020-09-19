@@ -1,9 +1,11 @@
 import React from "react";
+import { IUser } from "./IUser";
+import { getDataPromise } from "./getDataPromise";
 
 const App: React.FC = () => {
-    const user = { name: "Jack", age: 32 };
+    getDataPromise((users: IUser[]) => console.log("users", users))(0, 1);
 
-    return <div className="App">{JSON.stringify(user)}</div>;
+    return <div className="App">Please open console window!</div>;
 };
 
 export default App;
