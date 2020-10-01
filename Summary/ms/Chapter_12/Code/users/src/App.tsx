@@ -3,15 +3,26 @@ import { IUser } from "./IUser";
 import { getDataPromise } from "./getDataPromise";
 
 const App: React.FC = () => {
+    const limit = 1;
+    const [skip, setSkip] = useState(0);
     const [users, setUsers] = useState<IUser[]>([]);
+    const onClick = () => {
+        getDataPromise((receivedUsers: IUser[]) => {
+            setSkip(skip + limit);
+            setUsers([...users, ...receivedUsers]);
+        })(skip, limit);
+    };
 
-    useEffect(() => {
-        getDataPromise((receivedUsers: IUser[]) =>
-            setUsers([...users, ...receivedUsers])
-        )(0, 1);
-    }, [])
+    useEffect(onClick, []);
 
-    return <div className="App">{JSON.stringify(users)}</div>;
+    return (
+        <div className="App">
+            <p>
+                <button onClick={onClick}>more data...</button>
+            </p>
+            <p>{JSON.stringify(users)}</p>
+        </div>
+    );
 };
 
 export default App;
